@@ -17,16 +17,17 @@
         <table class="table">
         <thead>
             <tr>
-            <th scope="col">#</th>
-            <th scope="col">name</th>
-            <th scope="col">username</th>
-            <th scope="col">email</th>
+            <th scope="col" style="background-color: green; color:white;">#</th>
+            <th scope="col" style="background-color: blue; color:white;">name</th>
+            <th scope="col" style="background-color: blue; color:white;">username</th>
+            <th scope="col" style="background-color: blue; color:white;">email</th>
+            <th scope="col" style="background-color: blue; color:white;">phone</th>
             </tr>
         </thead>
         <tbody>
         @foreach($data as $usuario)
         <tr>
-        <th scope="row">1</th>
+        <th scope="row">☆</th>
             <td>{{ $usuario['name'] }}</td>
             <td>{{ $usuario['username'] }}</td>
             <td>{{ $usuario['email'] }}</td>
